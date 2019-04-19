@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Track Zoom L" group="" description="">
+	<CommandElement category="Zoom" name="Track Height Normal"/>
+	<CommandElement category="Zoom" name="Track Height Large"/>
+</Macro>

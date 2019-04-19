@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Quant 1/4" group="" description="">
+	<CommandElement category="Musical Functions" name="Freeze Quantize"/>
+	<CommandElement category="Quantize" name="1/4"/>
+	<CommandElement category="Event" name="Quantize"/>	
+	<CommandElement category="Edit" name="Deselect All"/>
+	<CommandElement category="Quantize" name="1/16"/>
+</Macro>

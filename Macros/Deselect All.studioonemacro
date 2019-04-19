@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Deselect All" group="" description="">
+	<CommandElement category="Edit" name="Deselect All"/>
+</Macro>
