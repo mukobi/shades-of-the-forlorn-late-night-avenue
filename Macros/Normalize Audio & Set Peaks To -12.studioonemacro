@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Normalize Audio &amp; Set Peaks To -12" group="Audio" description="">
+	<CommandElement category="Audio" name="Normalize Audio"/>
+	<CommandElement category="Audio" name="Edit Volume">
+		<CommandArgument name="Level" value="-12"/>
+		<CommandArgument name="Relative" value="0"/>
+	</CommandElement>
+</Macro>

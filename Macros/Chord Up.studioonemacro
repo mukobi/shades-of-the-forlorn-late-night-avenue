@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Macro title="Chord Up" group="" description="">
+<Macro title="Chord Up" group="Transpose" description="">
 	<CommandElement category="Musical Functions" name="Select Notes">
 		<CommandArgument name="Mode" value="1"/>
 		<CommandArgument name="RangeMode" value="0"/>

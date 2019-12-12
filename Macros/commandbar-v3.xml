@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandBarModel revision="3">
+	<CommandBar.SetupGroup revision="3">
+		<CommandBar.Button type="Menu" command.name="pageMenu"/>
+		<CommandBar.Button type="Menu" command.name="setupMenu">
+			<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHmSURBVEhL7ZMxaFpRFIaPqRIouikk8NwqRdISBxcLhYgOmgRii9RaHHRJEQIuUhxc7CQo6BAHccwkxK10Srw4CNqh0k2Qik5KUdBVFPufq0NjNCSULiUffLxzjvdezjvvSo/8c54sn3fxFEbhB6iHP+Bf8Rqewo9ut1tUq1VhNBoF8mMYhs/gRjZ1/M5sNn8KhUIvW63Wi0QiQQ6Hg0ajEbXb7VeRSGSv0WgcTiaTBtb+Wmy5iWr5XOWiXq8rVqt1md4mlUpRLBb7yuGicpOt5fNPtmEvmUwuMlCr1SidTlOn05H5dDqlbDbL4QBuau4Wn+12uygWi2I2m4lKpSJUKtUl6md6vf5qOBzKOsYjMC6e+Vu5a4V1HZsKhQJ5vV6ZcLfz+fwa4flgMPjZbDZlPR6PUzTKl4Wey8IK6w6uu1wuymQyMuFYq9WeIEyiQ5PFYpH1YDDIM54j/CYL94BnFnE6nfKV2W63K0qlkhiPxzLH7RAGg4HHcCB3rGFdx9zFbjjMVxVfsdcjRVHI4/Fw59Tv90mn05HP5+Ofd+SiB3CAw8r8x8CHK+fzedlpIBAQarX62u/3C41G8wXrlMXyh7EPj+CxzWYTuVyOX7+MfA++gXceep87yON6D3fhd8izfeT/heg3CoaprjSgKnkAAAAASUVORK5CYII="
+			                 data2x="iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARASURBVFhH7ZdNSFxXGIa/SZWouFCjrcI0SCkh/gzYgqig1UWLShUFXaR0o8WFBQuKUl1llbYboYgpKnWjUqo7i7ZC1WJRwVJBEYMSF/VnUS2TgFUYf9KY9z333JmbUOs9MtDNfeC595wz4/WbM9/5zhnx8PDw8Phf8el7NHgdlsN41RN5DH+FF6oXJaIV8F34NYxTvQiz8IHVjA6v6bspMfAN+EzbBW/X1tZKQ0ODFBUVycrKipydnb2F8d9gEPIb4P87hdfmOjNcAZvgLRiC38N7MOHg4EBSU1PRFGlpaZG+vj42J+EdLdODadIPD6AxN/TdLQy0E97y+/3i8/mYr5/AhLS0tHCwJDc3V7ekCt5JTk6W+Ph4TlAZ7IXp0BiTgN+DH8fGxsrQ0JDs7OzI9PS0MPCSkhJ7NsMwPdra2iQpKUkaGxtlb29PNjc3payM8Uoa/AKaTphRSnwFC3t6etTXbXNyciJxca+utQjn5+fCD2lzdHQkgUBAfQDABz1iwy0mn/AmL68G91/BEmewBGnh/BvjRW8S8M+8tLe3y/r6uhq4Ds3NzbK1tcXmDjSaXeI24Dfh2/DZ8fGxDA4OqkEnS0tLUlpaKjExMZKeni5dXV0qHZwEg0EZGRnRPTmD3GiMKpWbN2fCb2CC6oHFxUUpLCzUPStYLiYdIEuXem51dbWMj4+zGaaiokItVgfsfGk1r8bNDH8EE6qqqmR2dlZYa53BEsdssuZ+CD+Ff09MTMjc3BzHw0xOTqqUGhgYkMTERA59AP1suMFNwKpednR0qFl01lobzrCGtY2bySb8kQMLCwu8hWHKZGVlSVNTk+Tl5elRSdb3K3ET8D+8sHxdhmPVp+g74U5oz+K/cnpqvku7KSu3YYAzxdq5u7sr2dnZaqZsuCGsra2x+Q48gu/DGrzHx7qdkhL5HMvLyzI8PCy9vb0qxQCj/hZyEV6Jm0XHKeJJjFVCMTY2JvX19bpnrX6my8bGhh7Bg30+6e7ultbWVj1iwS3b8T5+e3y2Sh83uC0pnM534WfQX1lZqRaPE5a7/v5+mZ+fF54reGorLi7Wr1pwdgsKCnRPvoMM9E/Vc4lJDcyBD7lzMaj8/Hxr1JC6ujq71PHYyWOpESY7XYAXru7rBktYzjThEmGCScCHvGxvb6uODVODOXwZMzMzsr+/r3sv/b16nikmAf8OQ1NTU2qjYMXgwqupqZHMzMyXTnCE+coFVl5eru6jo6OyurrqXKw8yBtjksOkBN6HkZpmlaWbPIVx4dmwQnR28qxvvc6GA9bAz6FxITaZYTIPuVC4kz2Fv8AGGAyFQqoe2zh2v4ewG/4Bn8AfID+J+a4BTGf4MjhblRkZGZKTkyOHh4cqJS4uLp5jnGeRv/imaBCtgJMgf86z9NlwL+dvt59UL0pEK2DCZ/HczN9r3GaZApGk9vDw8PDw8LgSkRdVSUfWPQ1N8gAAAABJRU5ErkJggg=="/>
+		</CommandBar.Button>
+	</CommandBar.SetupGroup>
+	<CommandBar.Page title="Global">
+		<CommandBar.Group layout="default" revision="5" title="Edit">
+			<CommandBar.Button type="Menu" command.name="editMenu" title="Action"/>
+			<CommandBar.Button type="Menu" command.name="renameMenu" title="Name"/>
+			<CommandBar.Button type="Button" command.category="Edit" command.name="Undo" title="◄ Undo"/>
+			<CommandBar.Button type="Button" command.category="Edit" command.name="Redo" title=" Redo ►"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="1" title="Split">
+			<CommandBar.Button type="Button" command.category="Edit" command.name="Split Loop" title="Loop"/>
+			<CommandBar.Button type="Button" command.category="Edit" command.name="Split Range" title="Range"/>
+			<CommandBar.Button type="Button" command.category="Edit" command.name="Split at Cursor" title="Cursor"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="4" title="Zoom">
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Zoom to Selection" title="Sel"/>
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Zoom to Loop" title="Loop"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Wm9vbSBPdmVydmlldw=="
+			                   title="Overview"/>
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Toggle Zoom" title="Toggle"/>
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Track Height Tiny" title="S"/>
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Track Height Normal" title="M"/>
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Track Height Large" title="L"/>
+		</CommandBar.Group>
+		<CommandBar.Group layout="default" revision="2" title="Audio">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVjcmVhc2UgVm9sdW1lIC0zZEI="
+			                   title="-3dB"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro SW5jcmVhc2UgVm9sdW1lICszZEI="
+			                   title="+3dB"/>
+			<CommandBar.Button type="Button" command.category="Audio" command.name="Render Event FX" title="FX">
+				<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJsSURBVEhLzZVPiFJRFMavGak1jvo0wj+lQzqQ0lBgBCKSEIKLhKAIZzFuglm3i9a5dyVjizbClC2ijVSb0EUbFQYXmoVp0mKSjFpINZTW+d6976HiwAy4mB8czjnfeZ537uXeJzuKaIRfGHqyGxqNZpv8eVlZEOuZTGanWCx+pHiTS4fjGtlD4RV0ZrP5Wbfb/dPpdP4aDIanpB3npYNxORqNvmy1Wt+MRmOB8hNcZpdSqVRpNBr9g8Xj8dekzd2OY8LPcj2dTq/5fD4pmUzaKV/jMvNFIhGbiFkwGDSTO8uzaeY1XnI4HFddLhcasnA4fJrcKmLC6fF4lkXM6MVGcvJzs8xrfCGRSJxxOp3ycfJ6vWjkRExIVqv1pIiZ3W43kJN4Ns28xr5QKKQulxrheGHJwGixWJT9ZpIkobFSm2Je45VAIGARMRpjQiVf0uv1OhEzm82G2r4T3yLbIsOBh51zu93qFMPhEBMiR+0UvUideDweY2K8VPntI7LbZDJbg8Hgt3KE2u32kLQcmfLwtlKD6XQ6nF2l9njyt4hJQ3N54ka9Xu8jAc1m8wu5Gtm6sL1erzciL2MymbTk7pKh9q7RaAygA7o43+EQo/GbXC7XRgLy+fwncm95JvNDq9X+FDGjb8Tkx2enVCrtiphVq9Wv5D7wjLOJu1+r1fDQAy6p3K9UKrvKcmdu4jKd6+dYEWqxWOwVaSu8xMG1xAcFTa9AmOBmNputiz38RXmWyyobtMpmuVz+TPE9Lh0Mq9/vf9Hv9/cKhcJ7yje4rIKbif1G04sQDsMdbAHt9ROKHVxaHNjXhf9rHBUY+w87P9MUMdI1TQAAAABJRU5ErkJggg=="
+				                 data2x="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"/>
+			</CommandBar.Button>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Global">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro TG9vcCBTZWxlY3Rpb24="
+			                   title="Play Sel in Loop"/>
+			<CommandBar.Button type="Button" command.category="Track" command.name="Duplicate (complete)" title="Copy Track"/>
+			<CommandBar.Button type="Button" command.name="Macro QWxsIEZYIG9mZg==" title="All FX off"/>
+			<CommandBar.Button type="Button" command.category="Song" command.name="Show in Explorer/Finder" title="Song Folder"/>
+			<CommandBar.Button type="Button" command.name="Macro UGx1Zy1JbiBNYW5hZ2Vy" title="Plug-In Manager"/>
+		</CommandBar.Group>
+	</CommandBar.Page>
+	<CommandBar.Page title="Musical Edit">
+		<CommandBar.Group layout="default" revision="2" title="Note Selection">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIE1lbnU="
+			                   title="Sel Menu"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVzZWxlY3QgQWxs" title="Deselect All"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIDFfNA=="
+			                   title="1/4"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIDFfOA=="
+			                   title="1/8"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIDFfOFQ="
+			                   title="8 T"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEV2ZXJ5IDNyZA=="
+			                   title="Every 3rd"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIExvd2VzdA=="
+			                   title="Lowest"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEhpZ2hlc3Q="
+			                   title="Highest"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIE9mZmJlYXQ="
+			                   title="Offbeat"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="2" title="Note Actions">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro VmVsIC0xMA==" title="Vel -10"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro VmVsICsxMA==" title="Vel +10"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro VmVsIG1heA==" title="Vel max"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro SHVtYW5pemU=">
+				<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhL7ZTBSsNAEIZXCWKxx1z0EAj2DbwWGo1C8giK9NBjzgGfwhfwIL0Y7QsUoUIpQg7eFUVICJFCekkQiogGncnuQtg2tYkHL37ws7Mz0+lkd1jyD2eFrSId0D7oBnSODsYWCP1NUB0dwBR0C8LcMToW4aRp+oUr3WZs1mq1q16v9xRF0TvGUWijD2OQI9PUYuYVbjuO88gLiup2u/eQc0hTi5lX+CzfqSiMYQ5NJWSVrctQl2V5jdkzsBg/91KFS1GmcBLH8RuzZ2CxhO7KFR7A5T0zewYWG9BdMeLl4fy2JUm6HI1GL+LFoQ9jmMNyC8kXnju/opaZZzyefOGF8yuKz3P+jHdAJ/BJF6qqrlNXRlPXdZXZP2KaZgOWXboj5EjTtL7rumPf9z/5v4MfO866LyP2O7JtGMY1FPzIB4MgeIXYadXCeBR7lmU1FEWRwM4IwzC1bfsOTHyxKpN17HleMplMpsPhMGi1Wn3wH9NwtY75e3wAwnd2A8QH/QGE8Le5DL/60r+AkG/sZtCRjykM9QAAAABJRU5ErkJggg=="
+				                 data2x="iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPXSURBVFhH7ZhdSFNhHMbPNMmJOkslhU1Lh+tKyAprQ5swDLGb3SgV3nSxLrozgm40u+jCi24CQcJCEC2vUi/UAqnEDOnjYhZsazCaww+WqSja/Kr/8+6cOtOzb88k2A+e877/c8777uHs7D3PDpckSZIkIVHwbSRoSDdIOlZxnJ30lDTDquCcIl0knSapSekkMb9IHpKN9J7kIgUlGsP3SIJZAZi+7+9KYiEZ/d2IeUN67O/GRx+0s7PzGxJqHAjCbVKfUql83t7e/tFqtXpdLteWMF4Q9uEYzsG5GMOPjZtoDOPK9ul0uhd2u/2n2GAo4VyMwVh+jn2k8O1BcpJkpKuVMjQ0dEmr1R7z7w4Pzh0YGDBmZGTAF24lzBWAHIb12LS2ttLnR25WoKysLKelpUXLl2wuMXIYxmrA1dfXF7MqBkRj2Vxi5DCMZYxTqVTHWRUD2dnZwtiE3BKp2KjV6pjn1mg0wtgjfPsXOQzLStKw3MhheA2bpaUlH6tiYH5+fovvImcEIIdhJ9s4nYusioGZmRkv30UgCkAOwwhEXEdHh4NVMdDZ2SmMZXOJkcPwS5K3p6dnbmJiArExKiYnJz3d3d1z1MVVxlwByGG4kDSFTkNDw5TH41lFPxJwbmNjIxtLoMVcARy0YSSsB6QrKBYWFjZra2vH3G73CupQ4BycOzs7u8nvwhyYKyC1RRPgWZSkGHgVbWpq6jO0xDW+RYY9i5TW1tamraurK87KysopKira97QKBRnfXl1dXR4ZGflO8zg3NjZ2afcn0kN2QhSEysMx5d9wksrHB3FLxJx/wyGVjyM1rORbKeLKv+HYm4+DGT5KqifdIT3hFYy48284xPlYyrCZ1E66TjpDUubm5qbp9fpso9GYQ/Ve4s6/4RDnY/EqkUG6STqPoqmpqdBisWhLSkpOFBQUpGGfGNEqwaAfCVs95EL4PLHhu6Ty0tLSdHpKXaisrNy3aIs5LMPCLYE3OuUVFRWZ9Gi8HM6sKIlF/BQ7KGAYV9mkUCi43t5efV5eHm6NkAwODrJERuxLU3IDw3jfxRkMBhUtIbnoh8LhcCw3Nzd/5csxvk0YMJyJTn5+PpaykNBjc81sNr9dWVnZoXKcZGUHEggMf0NneHj4B4XuJfSlGB8fd1dXV7+y2WzrVH4mdbIDCQaGt0mvfT7fblVV1VhXV9cXfO1er3d9enp6sb+/324ymUZramre0T8B/NgQ+x6RDgXxsnaLZPB3JcE3gfe3o6z6h9RrWLmw742X5aRzJBhAfkCOxd8VrAYfSFLsfdEtF8IL9CRJ/mM47g/3QMz9S7/YiwAAAABJRU5ErkJggg=="/>
+			</CommandBar.Button>
+			<CommandBar.Button type="Button" command.name="Macro TXV0ZQ==" title="Mute"/>
+			<CommandBar.Button type="Button" command.name="Macro Q2hvcmQgVXA=" title="Chord Up"/>
+			<CommandBar.Button type="Button" command.name="Macro Q2hvcmQgRG93bg==" title="Chord Down"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="1" title="Note Quantize">
+			<CommandBar.Button type="Button" command.name="Macro UXVhbnQgMV8xNg==" title="Q 1/16"/>
+			<CommandBar.Button type="Button" command.name="Macro UXVhbnQgMV84" title="Q 1/8"/>
+			<CommandBar.Button type="Button" command.name="Macro UXVhbnQgMV80" title="Q 1/4"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="2" title="Note Length">
+			<CommandBar.Button type="Button" command.name="Macro TGVnICsgT3ZscA==" title="Leg + Ovlp"/>
+			<CommandBar.Button type="Button" command.name="Macro Tm90ZSBsZW5ndGggMV8xNg==" title="L 1/16"/>
+			<CommandBar.Button type="Button" command.name="Macro Tm90ZSBsZW5ndGggMV84" title="L 1/8"/>
+			<CommandBar.Button type="Button" command.name="Macro Tm90ZSBsZW5ndGggMV80" title="L 1/4"/>
+		</CommandBar.Group>
+	</CommandBar.Page>
+	<CommandBar.Page title="Audio Editing">
+		<CommandBar.Group layout="default" revision="6" title="Event Edit">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVjcmVhc2UgVm9sdW1lIC0zZEI="
+			                   title="-3dB"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro SW5jcmVhc2UgVm9sdW1lICszZEI="
+			                   title="+3dB"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Tm9ybWFsaXplIEF1ZGlvICYgU2V0IFBlYWtzIFRvIC0xMg=="
+			                   title="Normalize &amp; Peaks -12"/>
+			<CommandBar.Button type="Button" command.category="Event" command.name="Remove Gaps" title="Close Gaps"/>
+			<CommandBar.Button type="Button" command.category="Event" command.name="Merge Events" title="Merge"/>
+			<CommandBar.Button type="Button" command.category="Audio" command.name="Reverse Audio" title="Reverse"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Q3V0IFRvIEN1cnNvcg=="
+			                   title="Cut to Cursor"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="5" title="Layer">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro QWRkIEZpdmUgTGF5ZXJz"
+			                   title="Add 5 Layers"/>
+			<CommandBar.Button type="Button" command.category="Track" command.name="Activate Previous Layer" title="◄ Prev"/>
+			<CommandBar.Button type="Button" command.category="Track" command.name="Activate Next Layer" title="Next ►"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Rendering">
+			<CommandBar.Button type="Button" command.category="Event" command.name="Bounce Selection" title="Bounce"/>
+			<CommandBar.Button type="Button" command.category="Event" command.name="Mixdown Selection" title="Mix Selection"/>
+			<CommandBar.Button type="Button" command.category="Audio" command.name="Render Event FX" title="Event FX">
+				<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJhSURBVEhL3ZRNiFJRFMePqaVgWWSpM9rHwnJGF2/hgK6yheAiaBW0mXUDQTt37nLjUlpJLoQWEmgrIWmk58AskrDNbNoIxuhC0IWloKlM55x7n+PIG0iYRfSD8875n+v9e+99H/AvYpD5wriOkTUYDB8xB7ijwyWZ12EvkUg8yOVyFqx3RWs9XmC8x3jCSnDVarV+GgwG6mg0Us1m8z72roihs5y34keKojyv1+u3LRbLS9TXRBuUaDRqttlsgH3A35iw5xNDZznP+FkqlYJQKATxeJy2vCPa8DAcDssSIBgMUrrHYgU94xvIdiwWYxGJRChtswDwBAKn98vv91PaZLGCnvEObtdgMtEu8bYLozssADY8Ho8s0XGTPTdYrKBnvLW8XZfLRekWC3zUcDeyBHC73ZRuslhBz9hHZ6shJ9tZANgcDocs8VzE6nWN6e15g8F3QaPb7YJmMJ1O+QnQmM/nsgIYDodgt2v/ueAI4xWt2EtGNIGi2WyC0+kEo9HIQabaGAVpbYxMl+f2ej0yvk8XMj5SVZVqplqtUqphPJbxezweU4+Rq3+KQWNfENJMo9Gg9IMuZFzLZrNUM4VCgdIhC8HPdrstS+CVIicsAL5VKhVZ4qRDnvadLmR8gCs+zufzvNpardanHg1KjlutliwBJpMJHfIvoeCgWCyezGYzFuVymdJXFpK7GO8wPmAo1FhiL5lMqniGaqfToTMrivaC1+l0Wi2VSjRGHrylv8Hn9Xo/9/t9NZPJ0OSkaC+gx+0tBn2wtqixDrv4VdvHb3AJ69NX74K4jKH3Qv0XAPwBz3Sv9LhUh2kAAAAASUVORK5CYII="
+				                 data2x="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"/>
+			</CommandBar.Button>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Transients">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro QWxpZ24gVHJhbnNpZW50cw=="
+			                   title="Align Transients"/>
+			<CommandBar.Button type="Button" command.category="Navigation" command.name="Previous Hotspot" title="◄ Prev"/>
+			<CommandBar.Button type="Button" command.category="Navigation" command.name="Next Hotspot" title="Next ►"/>
+		</CommandBar.Group>
+	</CommandBar.Page>
+	<CommandBar.Page title="Music Editing">
+		<CommandBar.Group revision="1" title="Part">
+			<CommandBar.Button type="Menu" title="Zoom">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Wm9vbSBPdmVydmlldw=="
+					                     title="Show Part"/>
+					<CommandBar.MenuItem type="Button" command.category="Zoom" command.name="Zoom to Selection" title="Show Selection"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Trim">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Event" command.name="Crop to Content" title="Crop to Content"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Event" command.name="Trim End to Cursor" title="Trim End to Cursor"/>
+					<CommandBar.MenuItem type="Button" command.category="Event" command.name="Trim Start to Cursor"
+					                     title="Trim Start to Cursor"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+		</CommandBar.Group>
+		<CommandBar.Group revision="4" title="Filter &amp; Delete">
+			<CommandBar.Button type="Menu" title="Select">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Musical Functions" command.name="Select Notes"
+					                     title="Note Filter..."/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIExvd2VzdA=="
+					                     title="Lowest Notes"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEhpZ2hlc3Q="
+					                     title="Highest Notes"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEV2ZXJ5IDNyZA=="
+					                     title="Every 3rd Note"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEV2ZXJ5IDV0aA=="
+					                     title="Every 5th Note"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIERvd25iZWF0"
+					                     title="Downbeat"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIE9mZmJlYXQ="
+					                     title="Offbeat"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIDFfNA=="
+					                     title="1/4"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIDFfOA=="
+					                     title="1/8"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIDFfOFQ="
+					                     title="1/8T"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Edit" command.name="Deselect All" title="Deselect All"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Del">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGVsZXRlIERvdWJsZSBOb3Rlcw=="
+					                     title="Delete Double Notes"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGVsZXRlIFNob3J0IE5vdGVz"
+					                     title="Delete Short Notes"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2ltcGxpZnkgNTAl"
+					                     title="Simplify (50%)"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGVsZXRlIE5vdGVzIFJhbmRvbWx5IDUwJQ=="
+					                     title="Delete randomly (50%)"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.Menu title="By Grid">
+						<CommandBar.MenuItem type="Button" command.name="Macro VGhpbiBvdXQgTm90ZXMgMV8x" title="1/1"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VGhpbiBvdXQgTm90ZXMgMV8y"
+						                     title="1/2"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VGhpbiBvdXQgTm90ZXMgMV80"
+						                     title="1/4"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VGhpbiBvdXQgTm90ZXMgMV84"
+						                     title="1/8"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro VGhpbiBvdXQgTm90ZXMgMV8xNg==" title="1/16"/>
+					</CommandBar.Menu>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Pitch">
+			<CommandBar.Button type="Menu" title="Transpose">
+				<CommandBar.Menu>
+					<CommandBar.Menu title="Transpose up">
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNaW5vciAybmQ="
+						                     title="Minor 2nd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNYWpvciAybmQ="
+						                     title="Major 2nd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNaW5vciAzcmQ="
+						                     title="Minor 3rd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNYWpvciAzcmQ="
+						                     title="Major 3rd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyA0dGg=" title="4th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBEaW1pbmlzaGVkIDV0aA=="
+						                     title="Diminished 5th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyA1dGg=" title="5th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNaW5vciA2dGg="
+						                     title="Minor 6th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNYWpvciA2dGg="
+						                     title="Major 6th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNaW5vciA3dGg="
+						                     title="Minor 7th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro KyBNYWpvciA3dGg="
+						                     title="Major 7th"/>
+					</CommandBar.Menu>
+					<CommandBar.Menu title="Transpose down">
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNaW5vciAybmQ="
+						                     title="Minor 2nd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNYWpvciAybmQ="
+						                     title="Major 2nd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNaW5vciAzcmQ="
+						                     title="Minor 3rd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNYWpvciAzcmQ="
+						                     title="Major 3rd"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSA0dGg=" title="4th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBEaW1pbmlzaGVkIDV0aA=="
+						                     title="Diminished 5th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSA1dGg=" title="5th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNaW5vciA2dGg="
+						                     title="Minor 6th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNYWpvciA2dGg="
+						                     title="Major 6th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNaW5vciA3dGg="
+						                     title="Minor 7th"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro LSBNYWpvciA3dGg="
+						                     title="Major 7th"/>
+					</CommandBar.Menu>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.name="Macro U2FtZSBQaXRjaCAoQzEp" title="Same Pitch (C1)"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VGhyZWUgT2N0YXZlcyBkb3du"
+					                     title="-3 Octaves"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VHdvIE9jdGF2ZXMgZG93bg=="
+					                     title="-2 Octaves"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro T2N0YXZlIGRvd24="
+					                     title="-1 Octave"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro T2N0YXZlIHVw" title="+1 Octave"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VHdvIE9jdGF2ZXMgdXA="
+					                     title="+2 Octaves"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VGhyZWUgT2N0YXZlcyB1cA=="
+					                     title="+3 Octaves"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Pitch">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Q2hvcmQgVXA=" title="Chord up"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Q2hvcmQgVXA=" title="Chord down"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Musical Functions" command.name="Apply Scale"
+					                     title="Apply Scale"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TWlycm9yIE5vdGVzIChNaWRkbGUp"
+					                     title="Mirror Pitches"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TWlycm9yIE5vdGVzIChGaXJzdCBOb3RlKQ=="
+					                     title="Invert Intervals"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.name="Macro UmFuZG9taXplIFBpdGNoIChPcmlnaW5hbCBSYW5nZSk="
+					                     title="Randomize (Original Range)"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro UmFuZG9taXplIFBpdGNoIChPcmlnaW5hbCBSYW5nZSkgNTAl"
+					                     title="Randomize (Original Range) 50%"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro UmFuZG9taXplIFBpdGNoIChPcmlnaW5hbCBSYW5nZSkgMjUl"
+					                     title="Randomize (Original Range) 25%"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UmFuZG9taXplIFBpdGNoIChPcmlnaW5hbCBQaXRjaGVzKQ=="
+					                     title="Randomize (Original Pitches)"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Double">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.name="Macro RG91YmxlIE9jdGF2ZSBiZWxvdw==" title="Octave below"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro NXRoIGJlbG93" title="5th below"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro NHRoIGJlbG93" title="4th below"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro NHRoIGFib3Zl" title="4th above"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro NXRoIGFib3Zl" title="5th above"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RG91YmxlIE9jdGF2ZSBhYm92ZQ=="
+					                     title="Octave above"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.Menu title="Create Chords">
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TWFqb3IgVHJpYWQ="
+						                     title="Major Triad"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TWlub3IgVHJpYWQ="
+						                     title="Minor Triad"/>
+						<CommandBar.MenuSeparator/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U3VzNCBDaG9yZA=="
+						                     title="Sus4 Chord"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U3VzNCBBbWJpY2hvcmQ="
+						                     title="Sus4 Ambichord"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro QXVnbWVudGVkIFRyaWFk"
+						                     title="Augmented Triad"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGltaW5pc2hlZCBUcmlhZA=="
+						                     title="Diminished Triad"/>
+						<CommandBar.MenuSeparator/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TWFqb3IgN3RoIENob3Jk"
+						                     title="Major 7h Chord"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RG9taW5hbnQgN3RoIENob3Jk"
+						                     title="Dominant 7h Chord"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TWlub3IgN3RoIENob3Jk"
+						                     title="Minor 7th Chord"/>
+					</CommandBar.Menu>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+		</CommandBar.Group>
+		<CommandBar.Group revision="4" title="Time &amp; Velocity">
+			<CommandBar.Button type="Menu" title="Time">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.name="Macro SHVtYW5pemUgVGltZQ==" title="Humanize Time"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGlzdHJpYnV0ZSBOb3RlcyAxMDAl"
+					                     title="Distribute Notes"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGlzdHJpYnV0ZSBOb3RlcyA3NSU="
+					                     title="Distribute Notes (75%)"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro RGlzdHJpYnV0ZSBOb3RlcyA1MCU="
+					                     title="Distribute Notes (50%)"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UmV2ZXJzZSBOb3Rlcw=="
+					                     title="Reverse Notes"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro U2h1ZmZsZSBOb3Rlcw=="
+					                     title="Shuffle Notes"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Tempo">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.name="Macro SGFsZiBUZW1wbw==" title="Half Tempo"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro RG91YmxlIFRlbXBv" title="Double Tempo"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.name="Macro VGVtcG8gLTEl" title="-1%"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro VGVtcG8gLTUl" title="-5%"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro VGVtcG8gLTEwJQ==" title="-10%"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VGVtcG8gKzEl" title="+1%"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro VGVtcG8gKzUl" title="+5%"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro VGVtcG8gKzEwJQ==" title="+10%"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Length">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV8x"
+					                     title="1/1"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV8y"
+					                     title="1/2"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV80"
+					                     title="1/4"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV84"
+					                     title="1/8"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV8xNg=="
+					                     title="1/16"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV8zMg=="
+					                     title="1/32"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMV82NA=="
+					                     title="1/64"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.name="Macro Tm90ZSBsZW5ndGggMiBiYXJz" title="2 Bars"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro Tm90ZSBsZW5ndGggNCBiYXJz" title="4 Bars"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggOTAl"
+					                     title="Shrink by 10%"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro Tm90ZSBsZW5ndGggMTEwJQ=="
+					                     title="Expand by 10%"/>
+					<CommandBar.MenuItem type="Button" command.category="Event" command.name="Extend to Part End" title="Extend to Part End"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.name="Macro UmFuZG9taXplIE5vdGUgTGVuZ3Ro" title="Randomize"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UmFuZG9taXplIE5vdGUgTGVuZ3RoIDUwJQ=="
+					                     title="Randomize 50%"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Menu" title="Velo">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgLTEw"
+					                     title="Velocity -10"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgKzEw"
+					                     title="Velocity +10"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgLTI1JQ=="
+					                     title="Velocity -25%"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgKzI1JQ=="
+					                     title="Velocity +25%"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.Menu title="Fixed">
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgMTY="
+						                     title="16"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgMzI="
+						                     title="32"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgNDg="
+						                     title="48"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgNjQ="
+						                     title="64"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgODA="
+						                     title="80"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgOTY="
+						                     title="96"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgMTEy"
+						                     title="112"/>
+					</CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro VmVsb2NpdHkgbWF4"
+					                     title="Max. Velocity (127)"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.name="Macro UmFuZG9taXplIFZlbG9jaXR5" title="Randomize"/>
+					<CommandBar.MenuItem type="Button" command.name="Macro UmFuZG9taXplIFZlbG9jaXR5IDUwJQ==" title="Randomize (50%)"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UmFuZG9taXplIFZlbG9jaXR5IDI1JQ=="
+					                     title="Randomize (25%)"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro SHVtYW5pemU=">
+				<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHLSURBVEhL7ZS9S0JRGMbfm4gfOAi6qVM0XihCcHEIKoQcG/oDTBdttlkQwUVDDMJ/oMGG0CWIBCGnppxCmhyENBxEXMTe59xz6eJHed2CfvDwvuc5h8fD8eXSPzqKrPNcsVTWK+sChsTPirP2WU4YzJj1wrphdWGALVnnUafTqahipeG3Wq3XxWIxPBgMnNiH0MPDHp8JaEdXBy8jns/nXclkktxut7RI9PAymYyLl+eau/opnnAbi8WC/kA4RHXczhhqZDgcksfjwbOcYG3mxitDgdzT391UsCnMBH/2ej3ZLiL3RmLBmAl+LpfLM9kvUCqVUBpiwawbjPn1ZbNZpVaraY4BeLlcDq1Paq3ggJzfvX6/T9FoVNrfwMMezthsNlw9sGzc8GOPhnFrFgqFcCqVQv8rPOuUTqebejDqEetUUZRtr9e7hT9DBo9/mt959HnG7RCaVlX1sl6v74xGIxFqYO1QoM8zgg+DweBxq9WiSCRCdrsdG9TpdFA+xGIDELwbi8XI4XBoDjOZTCiRSKC9E8YGIPitUqlQu92mbrdL1Wp1FgqFZo1G44H3bsWpDcD7QmcsfDzwhXpn3bP0Yde/zWZoy/pnIPoCquSTeeHauegAAAAASUVORK5CYII="
+				                 data2x="iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO6SURBVFhH7ZhPSBRRHMd/q7tlkqTVQUOqPQQtIkhaeTRECFZzlQhPQejBDlYHi26dIqEuoYSHAsGLhz0YWUoQXTTc6CAkSCBYsOTFUmnJlm2z3/fNG3n7x52Zdd9GMB/4zvuzb3773dk3b37zyMXFxSUnHlna4TzrNuuIaBF9Yz1kRURrd06wgqxzrGMsH0slwfrKes96yfrC2hUnhsMs06wJTF82qhnsZ11ndbBK0GGDP6znrCes3+hIx24gIMwmk0khSfoPMPGy7rM6fT5fycDAAM3NzdHm5ubO+abQh88wBmP5nC7WAxkjAydX+C0OptnS0lJRMhdkqXKD1VVTU0NTU1PU0NBg9FqwsLBA7e3ttLq6iuYk6zEqKk6usF1OsnBlHZkFGDs9PY0rjeYlFmKloMMwbrCS/v5+R2ZN6uvrCecy8IZYKegwfBaHnp4e0cgH5VysLCnoMIyli5qamkQjHxobG2XNiKWiw7CYgF5v1pvcFnIOg4wgOgxrxTWsGx2Gf+Gwvr6+LVp5EIvFZM2IpaLD8GccIpGIk6doCrOzs7JmxFLRYVh82/DwsGjkw8jIiKwZsVR0GH7Bis3MzNDkJNIBZ+AcPJ4ZzAvESkGH4aMskb309vbS8vIyqrbA2L6+PtmiKAuxUiikYaz2t1hPWafQsbGxQS0tLbS0tIRmTjAGY/lmlT10moVYiLkPHaBQhvFEQg6LLM2j5r/RaJQCgYAYlAuMwdi0/Bg3bidrJz8uVD58kxVymv9akS0/LsQVzjv/tSItP8aV9ts1fFCW2cA7myff/NcKJT/GbOjYzTAMXmHhFeU1K2N5URC54F7yXyuU2GfS5zAmZjfrGusAOkBFRQXV1taKlBHzCihzGG+33ng8vqeUMheJRILKyspQjauGy1n3WCLLb2trE39Fa2urMJyOYlhg3oy6ML/PNIxZjb8/UF1dTWNjY8JwLv6VYXMOX2UF/H4/khZLs2tra7JGP2VZNGAYOzTdHo+HJiYmxFy1YnR0VNbooyyLBgwfZ5XX1dXZenFcXFykoaEh2RLbV0UFhg+hUlVVhSInKysrFAwGaWtrC803rA+oFBMYRjqVnJ+f31myshEOh6m5uVk87xlkM9i5LDrmKiFyASxfg4ODFAqFqLKyUjzDkYiMj49v848xx75jYaPPvOFScgxdpC9rSN/usrJt7Jkg73vGesVS39eybcPq4rv64AB4aFxkIZ/F6vGD9YmFzWa8rmTbs8VG9x3WYdHSB9bSR0bVxeV/hegv56EZ9OdDELYAAAAASUVORK5CYII="/>
+			</CommandBar.Button>
+			<CommandBar.Button type="Button" command.category="Event" command.name="Toggle Mute" title="Mute"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Legato">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro TGVnYXRvICsgUmVtb3ZlIE92ZXJsYXBz"
+			                   title="Leg+Ovlp"/>
+			<CommandBar.Button type="Menu" title="more">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TGVnYXRv" title="Legato"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UmVtb3ZlIE92ZXJsYXBz"
+					                     title="Remove Overlaps"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TGVnYXRvICgxMCBtcyk="
+					                     title="Legato with Overlap (10 ms)"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TGVnYXRvICgyMCBtcyk="
+					                     title="Legato with Overlap (20 ms)"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro TGVnYXRvICg1MCBtcyk="
+					                     title="Legato with Overlap (50 ms)"/>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Quantize Notes">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV80"
+			                   title="1/4"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV84"
+			                   title="1/8"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV8xNg=="
+			                   title="1/16"/>
+			<CommandBar.Button type="Menu" title="more">
+				<CommandBar.Menu>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV8x"
+					                     title="1/1"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV8y"
+					                     title="1/2"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV80IFQ="
+					                     title="1/4 T"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV84IFQ="
+					                     title="1/8 T"/>
+					<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZXMgMV8xNiBU"
+					                     title="1/16 T"/>
+					<CommandBar.MenuSeparator/>
+					<CommandBar.Menu title="Note Start + End">
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZSBTdGFydCArIEVuZCAxXzE="
+						                     title="1/1"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZSBTdGFydCArIEVuZCAxXzI="
+						                     title="1/2"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZSBTdGFydCArIEVuZCAxXzQ="
+						                     title="1/4"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZSBTdGFydCArIEVuZCAxXzg="
+						                     title="1/8"/>
+						<CommandBar.MenuItem type="Button" command.category="Macros" command.name="Macro UXVhbnRpemUgTm90ZSBTdGFydCArIEVuZCAxXzE2"
+						                     title="1/16"/>
+					</CommandBar.Menu>
+					<CommandBar.Menu title="Note End">
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZSBFbmQgMV8x" title="1/1"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZSBFbmQgMV8y" title="1/2"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZSBFbmQgMV80" title="1/4"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZSBFbmQgMV84" title="1/8"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZSBFbmQgMV8xNg==" title="1/16"/>
+					</CommandBar.Menu>
+					<CommandBar.Menu title="Triplets">
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZXMgMV8yIFQ=" title="1/2 T"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZXMgMV80IFQ=" title="1/4 T"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZXMgMV84IFQ=" title="1/8 T"/>
+						<CommandBar.MenuItem type="Button" command.name="Macro UXVhbnRpemUgTm90ZXMgMV8xNiBU" title="1/16 T"/>
+					</CommandBar.Menu>
+				</CommandBar.Menu>
+			</CommandBar.Button>
+		</CommandBar.Group>
+	</CommandBar.Page>
+	<CommandBar.Page title="Music Creation">
+		<CommandBar.Group revision="4" title="Create Notes">
+			<CommandBar.Button type="Button" command.name="Macro RmlsbCA4" title="Fill 8"/>
+			<CommandBar.Button type="Button" command.name="Macro RmlsbCAxNg==" title="Fill 16"/>
+			<CommandBar.Button type="Button" command.name="Macro RmlsbCA4XzE2" title="Fill 8/16"/>
+			<CommandBar.Button type="Button" command.category="Musical Functions" command.name="Apply Scale" title="Scale"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="2" title="Select Notes">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIExvd2VzdA=="
+			                   title="Low"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEhpZ2hlc3Q="
+			                   title="High"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IE5vdGVzIEV2ZXJ5IDNyZA=="
+			                   title="All 3rd"/>
+			<CommandBar.Button type="Button" command.category="Edit" command.name="Invert Selection" title="Rev Sel"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="9" title="Move Notes">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro T2N0YXZlIGRvd24=" title="Oct ▼"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro T2N0YXZlIHVw" title="Oct ▲"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Q2hvcmQgVXA=" title="Chord ▲"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Q2hvcmQgRG93bg==" title="Chord ▼"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro TWlycm9yIE5vdGVzIChNaWRkbGUp"
+			                   title="Mirror ↕"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro UmV2ZXJzZSBOb3Rlcw=="
+			                   title="Mirror ◄►"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="4" title="Randomize Values">
+			<CommandBar.Button type="Button" command.name="Macro UmFuZG9taXplIFBpdGNoIChPcmlnaW5hbCArIFNjYWxlKQ=="
+			                   title="Pitch"/>
+			<CommandBar.Button type="Button" command.name="Macro UmFuZG9taXplIFZlbG9jaXR5IChhYm92ZSAyMCUp" title="Velo"/>
+			<CommandBar.Button type="Button" command.name="Macro UmFuZG9taXplIExlbmd0aCAoMV84IEQgLSAxXzMyKQ=="
+			                   title="Length"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2h1ZmZsZSBOb3Rlcw=="
+			                   title="Shuffle"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="2" title="Thin out ">
+			<CommandBar.Button type="Button" command.name="Macro VGhpbiBvdXQ=" title="-25%"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVsZXRlIE5vdGVzIFJhbmRvbWx5IDUwJQ=="
+			                   title="-50%"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2ltcGxpZnkgNTAl" title="Simplify"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="1" title="Global ">
+			<CommandBar.Button type="Button" command.category="Devices" command.name="All Notes Off" title="Note off"/>
+		</CommandBar.Group>
+	</CommandBar.Page>
+	<CommandBar.Page title="Explore Macros">
+		<CommandBar.Group revision="2" title="Navigation">
+			<CommandBar.Button type="Button" command.category="Zoom" command.name="Zoom Full" title="Show All"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2V0IExvb3AgJiBab29tIElu"
+			                   title="Set Loop &amp; Zoom"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="2" title="Editing">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Q29weSAmIFBhc3Rl" title="Copy &amp; Paste"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2VsZWN0IFBhcnRzIGluIGJldHdlZW4gU2VsZWN0aW9u"
+			                   title="Select in between"/>
+			<CommandBar.Button type="Button" command.category="Event" command.name="Remove Gaps" title="Close Gaps"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Tm9ybWFsaXplIEF1ZGlvICYgU2V0IFBlYWtzIFRvIC0xMg=="
+			                   title="Normalize -12dB"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="4" title="Arranging">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RnVsbCBBcnJhbmdlIEFsaWdu"
+			                   title="Slice Song to Sections"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVhY3RpdmF0ZSAmIEhpZGUgVHJhY2s="
+			                   title="Deactivate &amp; Hide"/>
+		</CommandBar.Group>
+		<CommandBar.Group revision="3" title="Add Effects">
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro QWRkIEVR" title="EQ"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro QWRkIENvbXByZXNzb3I="
+			                   title="Comp"/>
+			<CommandBar.Button type="Button" command.category="Macros" command.name="Macro QWRkIFNwYWNlIERlbGF5IChFdmVudCBGWCk="
+			                   title="Event FX Delay"/>
+			<CommandBar.Button type="Button" command.name="Macro QXBwbHkgUmV2ZXJzZSBSZXZlcmI=" title="Reverse Reverb"/>
+		</CommandBar.Group>
+	</CommandBar.Page>
+</CommandBarModel>

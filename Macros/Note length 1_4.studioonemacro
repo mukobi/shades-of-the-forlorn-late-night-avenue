@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Macro title="Note length 1/4" group="" description="">
+<Macro title="Note length 1/4" group="Note length" description="">
 	<CommandElement category="Musical Functions" name="Length">
 		<CommandArgument name="Mode" value="2"/>
 		<CommandArgument name="Value" value="1"/>
